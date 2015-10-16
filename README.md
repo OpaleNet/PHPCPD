@@ -10,7 +10,9 @@
 
 ### Config Options
 
-- recursive - default false, Report code as dead if it is only called by dead code
+-   lines  default 5 Minimum number of identical lines
+-   tokens default 70 Minimum number of identical tokens
+-   fuzzy default false Fuzz variable names
 
 ### Sample Config
 
