@@ -1,0 +1,8 @@
+engines:
+  phpcpd:
+    enabled: true
+    recursive: false
+
+exclude_paths:
+  - .git/
+  - vendor/

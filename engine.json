@@ -1,0 +1,10 @@
+{
+  "name": "phpcpd",
+  "description": "Use phpcpd, a Copy Paste Detector (CPD) for PHP code.",
+  "maintainer": {
+    "name": "Yann Mad",
+    "email": "yann@opale.net"
+  },
+  "version": "0.1",
+  "spec_version": "0.1"
+}
