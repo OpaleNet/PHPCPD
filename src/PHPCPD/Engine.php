@@ -105,7 +105,10 @@ class Engine
         $detector = new Detector($strategy);
 
         $clones = $detector->copyPasteDetection(
-            $files
+            $files,
+            $this->config['lines'],
+            $this->config['tokens'],
+            $this->config['fuzzy']
         );
 
         $reports = $this->formatter->formatResults($clones);

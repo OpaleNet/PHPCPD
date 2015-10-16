@@ -1,7 +1,9 @@
 engines:
   phpcpd:
     enabled: true
-    recursive: false
+    lines: 5
+    tokens: 70
+    fuzzy: false
 
 exclude_paths:
   - .git/
